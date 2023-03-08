@@ -31,7 +31,6 @@ export class ProductListComponent implements OnInit {
     product.categoryName = 'Deleted'
     this.ngOnInit()
   }
-
   ngOnInit() {
     // First get the product id from the current route.
     const routeParams = this.route.snapshot.paramMap;

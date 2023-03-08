@@ -122,7 +122,10 @@ body {
 .getlinks {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 10px;
+    grid-gap: 10px;
 }
 .bb1 {
     display: inline-flex;
